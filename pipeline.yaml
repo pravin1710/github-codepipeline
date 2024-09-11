@@ -8,8 +8,8 @@ Parameters:
   GitHubOAuthToken:
     Type: String
     NoEcho: true
-    MinLength: 93
-    MaxLength: 93
+    MinLength: 30
+    MaxLength: 50
     AllowedPattern: '[A-Za-z0-9_]*'
 
   # *** The remaining parameters should either be:
@@ -19,7 +19,7 @@ Parameters:
   # *** The owner of the Github repo for this application.
   GitHubOwner:
     Type: String
-    Default: symphoniacloud
+    Default: pravin1710
     AllowedPattern: "[A-Za-z0-9-]+"
 
   GitHubRepo:
