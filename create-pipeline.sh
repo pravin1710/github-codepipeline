@@ -2,6 +2,7 @@
 
 # *** Change this to the desired name of the Cloudformation stack of 
 # your Pipeline (*not* the stack name of your app)
+echo "pipeline"
 CODEPIPELINE_STACK_NAME="github-codepipeline"
 
 if [ -z ${1} ]
